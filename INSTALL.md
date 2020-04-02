@@ -7,11 +7,11 @@
 
 # 系统安装操作
 ### 从分支导入代码
-> git clone -b backend git@github.com:z1px/laravel6.git 
+> git clone -b master git@github.com:z1px/demo.git 
 ### 修改文件用户组和权限
-> chown -R www: * laravel6
+> chown -R www: * demo
 ### 切换到系统根目录下
-> cd laravel6
+> cd demo
 ### 增加配置文件，将系统根目录下.env.example文件复制命名为.env，修改数据库配置和其它配置
 > cp .env.example .env
 ### 安装插件
